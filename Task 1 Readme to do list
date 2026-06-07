@@ -1,0 +1,56 @@
+# Calculator
+
+this is my calculator project made in python
+i made this for CodSoft internship task 2
+made by Harshita Singh
+
+## about this project
+
+this is a simple calculator program
+it can add subtract multiply and divide two numbers
+it runs in terminal
+i made this using basic python only
+
+## how to run
+
+open terminal and type
+```
+python calculator.py
+```
+
+## what it can do
+
+- add two numbers
+- subtract two numbers
+- multiply two numbers
+- divide two numbers
+- asks if you want to calculate again
+
+## things i used in this code
+
+- python
+- while loop
+- if conditions
+- input and print functions
+- int() to convert string to number
+
+## how it works
+
+first it asks you to enter two numbers
+then it asks what operation you want to do
+then it shows the answer
+then it asks if you want to calculate again
+if you type yes it starts again
+if you type no it exits
+
+## one thing to note
+
+i used int() so only whole numbers work
+like 5 and 3 will work
+but 5.5 may not work properly
+
+i learned while making this that you cannot divide by zero
+so i added a check for that also
+
+made by Harshita Singh
+CodSoft Internship

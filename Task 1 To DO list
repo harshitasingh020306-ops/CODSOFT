@@ -1,0 +1,51 @@
+# to do list for Code Soft
+# to dolist project made by Harshita Singh
+# task 1
+
+tasks = []
+
+print("welcome to to do list")
+
+run = True
+while run == True:
+    print(" ")
+    print("press 1 to add task")
+    print("press 2 to see tasks")
+    print("press 3 to delete task")
+    print("press 4 to exit")
+    
+    H = input("enter: ")
+    
+    if H == "1":
+        S = input("write task name: ")
+        tasks.append(S)
+        print("task added")
+    
+    if H == "2":
+        if tasks == []:
+            print("no task found")
+        if tasks != []:
+            count = 1
+            for i in tasks:
+                print(count , i)
+                count = count + 1
+    
+    if H == "3":
+        if tasks == []:
+            print("no task found")
+        if tasks != []:
+            count = 1
+            for i in tasks:
+                print(count , i)
+                count = count + 1
+            num = input("which number task to delete: ")
+            num = int(num)
+            tasks.pop(num - 1)
+            print("task deleted")
+            
+    if H == "4":
+        print("exiting...")
+        run = False
+        
+    if H != "1" and H != "2" and H != "3" and H != "4":
+        print("please enter valid number")
